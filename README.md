@@ -28,7 +28,7 @@
 
 演示视频：[busy-clear-github-preview.mp4](docs/assets/busy-clear-github-preview.mp4)
 
-更高清的最终演示视频建议放在 GitHub Release 中。
+更高清的最终演示视频放在 [GitHub Release](https://github.com/czcyolo/busy-clear/releases/tag/v0.1.0-mac-alpha) 中。
 
 ![菜单栏状态](docs/assets/menu-bar.png)
 
@@ -40,7 +40,7 @@
 
 当前第一版优先支持 macOS Apple Silicon。
 
-下载 `.dmg` 后安装到“应用程序”即可。当前安装包尚未做 Apple Developer ID 签名，首次打开时 macOS 可能会提示安全确认，需要在系统设置中允许打开。
+从 [GitHub Release](https://github.com/czcyolo/busy-clear/releases/tag/v0.1.0-mac-alpha) 下载 `.dmg` 后安装到“应用程序”即可。当前安装包尚未做 Apple Developer ID 签名，首次打开时 macOS 可能会提示安全确认，需要在系统设置中允许打开。
 
 ## 使用方式
 

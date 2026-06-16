@@ -25,6 +25,7 @@
   package-lock.json
   electron.vite.config.ts
   tsconfig.json
+  vitest.config.ts
   用户使用说明.md
   build/
     icon.icns

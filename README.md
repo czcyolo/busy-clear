@@ -26,7 +26,9 @@
 
 ## 演示
 
-演示视频：[busy-clear-github-preview.mp4](docs/assets/busy-clear-github-preview.mp4)
+[![观看忙个明白演示视频](docs/assets/busy-clear-video-cover.jpg)](https://czcyolo.github.io/busy-clear/)
+
+点击上方封面，可在 [项目首页](https://czcyolo.github.io/busy-clear/) 稳定观看演示视频。
 
 更高清的最终演示视频放在 [GitHub Release](https://github.com/czcyolo/busy-clear/releases/tag/v0.1.0-mac-alpha) 中。
 

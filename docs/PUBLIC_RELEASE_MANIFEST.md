@@ -34,11 +34,14 @@
     menu-bar-child-icon.png
     menu-bar-icon.png
   docs/
+    .nojekyll
+    index.html
     PUBLIC_RELEASE_MANIFEST.md
   docs/assets/
     app-main-transparent.png
     app-working-transparent.png
     busy-clear-github-preview.mp4
+    busy-clear-video-cover.jpg
     menu-bar.png
   src/
     main/
@@ -72,9 +75,16 @@ docs/PROJECT_STATUS.md
 忙个明白最终演示视频.mp4
 ```
 
-README 使用 10MB 以内的压缩预览版：
+README 使用视频封面图跳转到 GitHub Pages 首页：
 
 ```text
+docs/assets/busy-clear-video-cover.jpg
+```
+
+GitHub Pages 首页使用压缩视频文件：
+
+```text
+docs/index.html
 docs/assets/busy-clear-github-preview.mp4
 ```
 

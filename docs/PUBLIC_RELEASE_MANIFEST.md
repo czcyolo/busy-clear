@@ -15,12 +15,23 @@
 ```text
 忙个明白/
   .gitignore
+  .github/
+    workflows/
+      ci.yml
+    ISSUE_TEMPLATE/
+      bug_report.yml
+      feature_request.yml
+      config.yml
+    dependabot.yml
+    pull_request_template.md
   AGENTS.md
   ATTRIBUTIONS.md
   CHANGELOG.md
+  CONTRIBUTING.md
   LICENSE
   PRIVACY.md
   README.md
+  SECURITY.md
   package.json
   package-lock.json
   electron.vite.config.ts
@@ -95,6 +106,8 @@ docs/assets/busy-clear-github-preview.mp4
 3. 同步后检查公开目录，不应包含 `node_modules/`、`release/`、`out/`、`素材/`、`.DS_Store` 等文件。
 4. 在公开目录里创建或更新 Git 提交，并推送到 GitHub。
 5. 在 GitHub Release 里上传 `.dmg`、最终演示视频和版本说明。
+6. 推送后检查 GitHub Actions 的 CI 是否通过。
+7. 如果是 Alpha/Beta 包，Release 建议标记为 pre-release。
 
 ## 公开前复核
 
@@ -103,3 +116,4 @@ docs/assets/busy-clear-github-preview.mp4
 - `素材/` 不上传，除非逐个确认版权和用途。
 - `release/` 不上传源码仓库，安装包放 GitHub Release。
 - `docs/PROJECT_STATUS.md` 不上传公开版，因为它偏本地开发交接，不适合作为公开文档。
+- `.github/` 可以上传，它只包含 CI、Dependabot、Issue 模板和 PR 模板，不包含隐私数据。

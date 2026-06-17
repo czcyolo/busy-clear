@@ -1,5 +1,7 @@
 # 忙个明白
 
+[![CI](https://github.com/czcyolo/busy-clear/actions/workflows/ci.yml/badge.svg)](https://github.com/czcyolo/busy-clear/actions/workflows/ci.yml)
+
 一个给办公室个人使用的轻量桌面工作记录工具。
 
 它解决的问题很简单：忙了一天，却说不清自己到底忙了什么。你可以用它记录主线工作、被打断的现场、每次打断占用的时间，并在一天结束后导出一张 24 小时时间轴。
@@ -142,6 +144,13 @@ release/        打包产物，不纳入 Git
 - 适配 Windows 截图、托盘、窗口行为和打包流程。
 - 优化时间轴导出样式。
 - 根据真实使用反馈补充更多复盘能力。
+
+## 反馈和贡献
+
+- 遇到问题：请提交 [Bug report](https://github.com/czcyolo/busy-clear/issues/new?template=bug_report.yml)。
+- 有功能建议：请提交 [Feature request](https://github.com/czcyolo/busy-clear/issues/new?template=feature_request.yml)。
+- 想参与开发：请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 发现安全问题：请按 [SECURITY.md](SECURITY.md) 私下报告，不要公开贴出敏感细节。
 
 ## 许可证
 

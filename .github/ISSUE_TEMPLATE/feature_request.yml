@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an improvement for 忙个明白.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: What scenario should this support?
+      description: Describe the real work situation where this would help.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      description: Describe the behavior or interaction you expect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: If you have tried another workflow, describe it here.
+    validations:
+      required: false

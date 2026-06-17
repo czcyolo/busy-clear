@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a problem while using 忙个明白.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Please describe the problem and what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps if the problem can be reproduced.
+      placeholder: |
+        1. Open the app
+        2. Click ...
+        3. See ...
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: v0.1.0-mac-alpha
+    validations:
+      required: false
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS Apple Silicon
+        - macOS Intel
+        - Windows
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recording
+      description: Add screenshots or a short recording if it helps explain the problem.
+    validations:
+      required: false
